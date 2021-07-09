@@ -1,0 +1,71 @@
+html{
+	scroll-behavior: smooth;
+}
+img{
+  width:400px;
+  border-radius:50%;
+	margin-top: 100px;
+	
+	
+}
+span img{
+	border-radius: 1px;
+	width: 300px;
+	
+margin-top: 10px}
+span img:hover{
+	transform: scale(0.9)
+}
+h1{
+  text-shadow: 2px 1px red
+}
+body{
+ background-image: linear-gradient(to bottom right,#33ff33,yellow,#33ff33);
+  text-align:center;
+
+}
+#bio
+{
+  font-size:18px;
+  padding:20px;
+  
+}
+hr{
+  width:15%;
+   border-top: 5px solid black;
+}
+.op{
+	
+	float: left;
+	color: darkblue;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Dela Gothic One;
+	font-size: 25px;
+	margin-right: 20px;
+	
+
+}
+.po
+{text-align: left;
+	list-style: none;
+	font-family: monospace;
+   position: absolute;
+	top: 10px;
+	left: 30px;
+	z-index: 10;
+	cursor: pointer;
+}
+.op:hover{
+	background-color:coral
+}
+button{
+	width:auto;
+	height: 50px;
+	background-color: hotpink;
+	color: white;
+font-size: 30px
+	
+}
